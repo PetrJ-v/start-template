@@ -1,0 +1,22 @@
+@import "./normalize";
+@import "./var";
+@import "_mixins/mixins";
+@import "./fonts";
+
+body{
+
+}
+.header{
+	max-width: 80%;
+	margin: 40px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.img-wrapper{
+	line-height: 0;
+	img{
+		max-width: 100%;
+	}
+}

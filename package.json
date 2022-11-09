@@ -1,0 +1,54 @@
+{
+  "name": "start-template",
+  "version": "1.0.0",
+  "description": "Для работы с изображениями в ОС Windows необходимо установить программы ***GraphicsMagick-1.3.33-Q16-win64-dll.exe*** и ***ImageMagick-7.0.9-6-Q16-x64-dll.exe*** (в MacOs и Linux эти утилиты входят по умолчанию)",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build --build",
+    "zip": "gulp deployZip --build",
+    "deploy": "gulp deployFTP --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PetrJ-v/start-template.git"
+  },
+  "author": "Petr Zhechkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PetrJ-v/start-template/issues"
+  },
+  "homepage": "https://github.com/PetrJ-v/start-template#readme",
+  "devDependencies": {
+    "browser-sync": "latest",
+    "del": "latest",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-clean-css": "latest",
+    "gulp-file-include": "latest",
+    "gulp-fonter": "latest",
+    "gulp-group-css-media-queries": "latest",
+    "gulp-if": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-newer": "latest",
+    "gulp-notify": "latest",
+    "gulp-plumber": "latest",
+    "gulp-rename": "latest",
+    "gulp-replace": "latest",
+    "gulp-sass": "latest",
+    "gulp-ttf2woff": "latest",
+    "gulp-ttf2woff2": "latest",
+    "gulp-util": "latest",
+    "gulp-version-number": "latest",
+    "gulp-webp": "latest",
+    "gulp-webp-html-nosvg": "latest",
+    "gulp-webpcss": "latest",
+    "gulp-zip": "latest",
+    "sass": "latest",
+    "vinyl-ftp": "latest",
+    "webp-converter": "2.2.3",
+    "webpack": "latest",
+    "webpack-stream": "latest"
+  }
+}
